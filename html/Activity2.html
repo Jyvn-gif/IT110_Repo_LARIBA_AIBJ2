@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Practical Application Activity</title>
+</head>
+<body>
+
+  <h1 id="top">HTML Practical Application Activity</h1>
+
+  <!-- Simple links to jump to each section -->
+  <p>
+    <a href="#images">Images</a> |
+    <a href="#hyperlinks">Hyperlinks</a> |
+    <a href="#multimedia">Multimedia</a> |
+    <a href="#useful-tags">Useful Tags</a> |
+    <a href="#html-dom">HTML DOM</a>
+  </p>
+
+  <hr>
+
+  <!-- ============================================= -->
+  <!-- SECTION 1: IMAGES -->
+  <!-- ============================================= -->
+  <div id="images">
+    <h2>1. Images</h2>
+    <figure>
+    <img id="img-motherboard" src="IMG\top-down view.jpg" alt="Top-down view of a computer motherboard showing the CPU socket, RAM slots, and chipset" width="400">
+    <figcaption>Fig. 1 - Top-down view of a computer showing the CPU socket, RAM slots, and chipset</figcaption>
+    <br><br>
+    </figure>
+    <figure>
+    <img src="IMG\Close-up.webp" alt="Close-up of a CPU chip with its pins visible" height="300">
+    <figcaption>Fig. 2 - Close-up of a CPU chip with its pins visible" height.</figcaption>
+    <br><br>
+    </figure>
+
+    <!-- Figure with figcaption, as required -->
+    <figure>
+      <img src="IMG\GPU.jpg" alt="Graphics card with cooling fans and heatsink" width="350">
+      <figcaption>Fig. 3 - A dedicated graphics card (GPU), showing its cooling fans and heatsink.</figcaption>
+    </figure>
+
+    <p>Replace the src paths above with your own image files stored in an images folder inside your project.</p>
+  </div>
+
+  <hr>
+
+  <!-- ============================================= -->
+  <!-- SECTION 2: HYPERLINKS -->
+  <!-- ============================================= -->
+  <div id="hyperlinks">
+    <h2>2. Hyperlinks</h2>
+
+    <!-- Internal link: jumps to another section of this same page -->
+    <p>Internal link: <a href="#html-dom">Go to the HTML DOM section</a></p>
+
+    <!-- External link: opens in a new tab -->
+    <p>External link: <a href="https://www.youtube.com/watch?v=IkRXpFIRUl4" target="_blank">Learn how computer chips are made (opens in new tab)</a></p>
+
+    <!-- Email link -->
+    <p>Email link: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Email the instructor</a></p>
+
+    <!-- Same-page anchor link, pointing to an id further down -->
+    <p>Anchor link: <a href="#extra-tag-1">Jump to the Useful Tags example below</a></p>
+  </div>
+
+  <hr>
+
+  <!-- ============================================= -->
+  <!-- SECTION 3: MULTIMEDIA -->
+  <!-- ============================================= -->
+  <div id="multimedia">
+    <h2>3. Multimedia</h2>
+
+    <h3>Audio</h3>
+    <audio controls>
+      <source src="MEDIA\rickroll.mp3" type="audio/mpeg">
+      Your browser does not support the audio element. You can
+      <a href="MEDIA\rickroll.mp3">download the audio file</a> instead.
+    </audio>
+
+    <h3>Video</h3>
+    <video controls width="400">
+      <source src="MEDIA\rickroll.mp4" type="video/mp4">
+      Your browser does not support the video tag. You can
+      <a href="MEDIA\rickroll.mp4">download the video file</a> instead.
+    </video>
+
+  </div>
+
+  <hr>
+
+  <!-- ============================================= -->
+  <!-- SECTION 4: USEFUL TAGS -->
+  <!-- ============================================= -->
+
+  <div id="useful-tags">
+    <h2>4. Useful Tags</h2>
+
+    <!-- Used b to make an important word bold -->
+    <p id="extra-tag-1">The <b>CPU</b> is often called the brain of the computer.</p>
+
+    <!-- Used i to italicize a term being introduced -->
+    <p>Computers store data as <i>binary</i>, meaning only 0s and 1s.</p>
+
+    <!-- Used small to show a fine-print style note -->
+    <p>RAM is temporary storage. <small>(It clears when the power is off.)</small></p>
+
+    <!-- Used sup to show a superscript, common in tech specs like measurements -->
+    <p>A typical hard drive today can store several terabytes (10<sup>12</sup> bytes) of data.</p>
+
+    <!-- Used an HTML character entity to display a copyright symbol -->
+    <p>&copy; 2026 Computer Hardware &amp; Technology Class Project</p>
+  </div>
+`
+  <hr>
+
+  <!-- ============================================= -->
+  <!-- SECTION 5: HTML DOM -->
+  <!-- ============================================= -->
+
+  <div id="html-dom">
+    <h2>5. HTML DOM</h2>
+    <figure>
+    <img src="IMG\DOM.png" alt="Screenshot of the browser DevTools Elements panel showing the DOM tree" width="500">
+    <figcaption>Fig. 4 Nested parent/child elements</figcaption>
+    </figure>
+  </div>
+
+  <hr>
+
+  <p id="page-footer">HTML Practical Application Activity - Images, Hyperlinks, Multimedia, Useful Tags, and the HTML DOM</p>
+
+</body>
+</html>
